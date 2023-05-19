@@ -1,0 +1,175 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #454349;
+}
+
+
+
+.container {
+
+    min-height: 100vh;
+    width: 100vw;
+    background-color: transparent;
+    padding: 23px;
+}
+
+
+.input-box  {
+
+    border: 1px solid #ffc800e0;
+    padding: 23px;
+    border-radius: 5px;
+}
+
+input {
+
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+textarea {
+
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input, textarea {
+    width: 100%;
+    background-color:transparent;
+    border: none;
+    outline: none;
+    margin-top: 11px;
+    color: rgb(255, 255, 255);
+    
+}
+
+button {
+
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 8px 16px;
+    border: 1px solid white;
+
+}
+
+
+#notes {
+
+    padding: 23px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 67px;
+    
+}
+
+
+#archive {
+
+    padding: 23px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 67px;
+    
+}
+
+#deletedNotes {
+    padding: 23px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 67px;
+}
+
+.note {
+    width: 400px;
+    word-wrap: break-word;
+    padding: 12px;
+     border: 1px solid white;
+    background: transparent;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.deleteNote {
+
+    float: right;
+    border-radius: 5px;
+    padding: 3px 5px;
+}
+
+.deleteNote  img {
+
+
+    width: 26px;
+    height: 26px;
+}
+
+.all-tasks {
+     
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #fff;
+    padding: 17px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 20px;
+    font-family: 'Patua One', cursive;
+    color: hsl(33, 100%, 50%);
+    padding-bottom: 7px;
+}
+
+#addNoteBtn {
+
+     background-color: rgb(227, 130, 11);
+     border-radius: 5px;
+     padding: 12px 35px;
+     font-size: larger;
+     cursor: pointer;
+
+}
+
+.text {
+     font-family: 'Crimson Pro', serif;
+     padding-bottom: 15px;
+   
+}
+
+.container h1 {
+
+  text-align: center;
+  color:rgb(247, 146, 23);
+  padding-bottom: 15px;
+
+}
+
+.all-tasks button {
+
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.all-tasks button:hover {
+
+    opacity: 0.8;
+}
+
+
